@@ -1,0 +1,13 @@
+#Fri Aug 04 16:04:39 KST 2023
+base.0=C\:\\Users\\user\\Desktop\\Android_Sample_Theme_230614\\Android_Sample_Theme_230614\\apeach-10.2.5-source\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+base.1=C\:\\Users\\user\\Desktop\\Android_Sample_Theme_230614\\Android_Sample_Theme_230614\\apeach-10.2.5-source\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+base.2=C\:\\Users\\user\\Desktop\\Android_Sample_Theme_230614\\Android_Sample_Theme_230614\\apeach-10.2.5-source\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\13\\classes.dex
+base.3=C\:\\Users\\user\\Desktop\\Android_Sample_Theme_230614\\Android_Sample_Theme_230614\\apeach-10.2.5-source\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\14\\classes.dex
+path.0=classes.dex
+path.1=0/classes.dex
+path.2=13/classes.dex
+path.3=14/classes.dex
+renamed.0=classes.dex
+renamed.1=classes2.dex
+renamed.2=classes3.dex
+renamed.3=classes4.dex

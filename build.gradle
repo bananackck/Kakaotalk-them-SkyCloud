@@ -1,0 +1,42 @@
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:7.4.2'
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.8.21"
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+android {
+    compileSdkVersion 34
+    buildToolsVersion "33.0.2"
+
+    defaultConfig {
+        minSdkVersion 24
+        targetSdkVersion 34
+
+        versionName "1.0.2"
+        versionCode 102
+        applicationId "com.kakao.talk.theme.SkyCloud00"
+
+        sourceSets {
+            main.res.srcDirs += 'src/main/theme'
+            main.res.srcDirs += 'src/main/theme-adv'
+        }
+    }
+
+    buildFeatures {
+        viewBinding = true
+    }
+}

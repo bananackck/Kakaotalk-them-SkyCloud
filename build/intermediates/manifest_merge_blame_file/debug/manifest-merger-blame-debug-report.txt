@@ -1,0 +1,73 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.kakao.talk.theme.SkyCloud00"
+4    android:versionCode="102"
+5    android:versionName="1.0.2" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->C:\Users\user\Desktop\Android_Sample_Theme_230614\Android_Sample_Theme_230614\apeach-10.2.5-source\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="34" />
+9-->C:\Users\user\Desktop\Android_Sample_Theme_230614\Android_Sample_Theme_230614\apeach-10.2.5-source\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="com.kakao.talk.v2.theme" />
+11-->C:\Users\user\Desktop\Android_Sample_Theme_230614\Android_Sample_Theme_230614\apeach-10.2.5-source\src\main\AndroidManifest.xml:6:5-63
+11-->C:\Users\user\Desktop\Android_Sample_Theme_230614\Android_Sample_Theme_230614\apeach-10.2.5-source\src\main\AndroidManifest.xml:6:22-60
+12
+13    <queries>
+13-->C:\Users\user\Desktop\Android_Sample_Theme_230614\Android_Sample_Theme_230614\apeach-10.2.5-source\src\main\AndroidManifest.xml:8:5-10:15
+14        <package android:name="com.kakao.talk" />
+14-->C:\Users\user\Desktop\Android_Sample_Theme_230614\Android_Sample_Theme_230614\apeach-10.2.5-source\src\main\AndroidManifest.xml:9:9-50
+14-->C:\Users\user\Desktop\Android_Sample_Theme_230614\Android_Sample_Theme_230614\apeach-10.2.5-source\src\main\AndroidManifest.xml:9:18-47
+15    </queries>
+16
+17    <application
+17-->C:\Users\user\Desktop\Android_Sample_Theme_230614\Android_Sample_Theme_230614\apeach-10.2.5-source\src\main\AndroidManifest.xml:12:5-39:19
+18        android:allowBackup="true"
+18-->C:\Users\user\Desktop\Android_Sample_Theme_230614\Android_Sample_Theme_230614\apeach-10.2.5-source\src\main\AndroidManifest.xml:13:9-35
+19        android:debuggable="true"
+20        android:extractNativeLibs="false"
+21        android:icon="@mipmap/ic_launcher"
+21-->C:\Users\user\Desktop\Android_Sample_Theme_230614\Android_Sample_Theme_230614\apeach-10.2.5-source\src\main\AndroidManifest.xml:14:9-43
+22        android:label="@string/app_name"
+22-->C:\Users\user\Desktop\Android_Sample_Theme_230614\Android_Sample_Theme_230614\apeach-10.2.5-source\src\main\AndroidManifest.xml:15:9-41
+23        android:testOnly="true" >
+24        <meta-data
+24-->C:\Users\user\Desktop\Android_Sample_Theme_230614\Android_Sample_Theme_230614\apeach-10.2.5-source\src\main\AndroidManifest.xml:18:9-20:35
+25            android:name="android.max_aspect"
+25-->C:\Users\user\Desktop\Android_Sample_Theme_230614\Android_Sample_Theme_230614\apeach-10.2.5-source\src\main\AndroidManifest.xml:19:13-46
+26            android:value="2.1" />
+26-->C:\Users\user\Desktop\Android_Sample_Theme_230614\Android_Sample_Theme_230614\apeach-10.2.5-source\src\main\AndroidManifest.xml:20:13-32
+27
+28        <activity
+28-->C:\Users\user\Desktop\Android_Sample_Theme_230614\Android_Sample_Theme_230614\apeach-10.2.5-source\src\main\AndroidManifest.xml:22:9-37:20
+29            android:name="com.kakao.talk.theme.apeach.MainActivity"
+29-->C:\Users\user\Desktop\Android_Sample_Theme_230614\Android_Sample_Theme_230614\apeach-10.2.5-source\src\main\AndroidManifest.xml:23:13-41
+30            android:excludeFromRecents="true"
+30-->C:\Users\user\Desktop\Android_Sample_Theme_230614\Android_Sample_Theme_230614\apeach-10.2.5-source\src\main\AndroidManifest.xml:24:13-46
+31            android:exported="true"
+31-->C:\Users\user\Desktop\Android_Sample_Theme_230614\Android_Sample_Theme_230614\apeach-10.2.5-source\src\main\AndroidManifest.xml:25:13-36
+32            android:launchMode="singleTop"
+32-->C:\Users\user\Desktop\Android_Sample_Theme_230614\Android_Sample_Theme_230614\apeach-10.2.5-source\src\main\AndroidManifest.xml:26:13-43
+33            android:theme="@style/SplashTheme" >
+33-->C:\Users\user\Desktop\Android_Sample_Theme_230614\Android_Sample_Theme_230614\apeach-10.2.5-source\src\main\AndroidManifest.xml:27:13-47
+34            <intent-filter>
+34-->C:\Users\user\Desktop\Android_Sample_Theme_230614\Android_Sample_Theme_230614\apeach-10.2.5-source\src\main\AndroidManifest.xml:29:13-32:29
+35                <action android:name="android.intent.action.MAIN" />
+35-->C:\Users\user\Desktop\Android_Sample_Theme_230614\Android_Sample_Theme_230614\apeach-10.2.5-source\src\main\AndroidManifest.xml:30:17-69
+35-->C:\Users\user\Desktop\Android_Sample_Theme_230614\Android_Sample_Theme_230614\apeach-10.2.5-source\src\main\AndroidManifest.xml:30:25-66
+36
+37                <category android:name="android.intent.category.LAUNCHER" />
+37-->C:\Users\user\Desktop\Android_Sample_Theme_230614\Android_Sample_Theme_230614\apeach-10.2.5-source\src\main\AndroidManifest.xml:31:17-77
+37-->C:\Users\user\Desktop\Android_Sample_Theme_230614\Android_Sample_Theme_230614\apeach-10.2.5-source\src\main\AndroidManifest.xml:31:27-74
+38            </intent-filter>
+39            <intent-filter>
+39-->C:\Users\user\Desktop\Android_Sample_Theme_230614\Android_Sample_Theme_230614\apeach-10.2.5-source\src\main\AndroidManifest.xml:33:13-35:29
+40                <action android:name="com.kakao.talk.theme.action.MAIN" />
+40-->C:\Users\user\Desktop\Android_Sample_Theme_230614\Android_Sample_Theme_230614\apeach-10.2.5-source\src\main\AndroidManifest.xml:34:17-75
+40-->C:\Users\user\Desktop\Android_Sample_Theme_230614\Android_Sample_Theme_230614\apeach-10.2.5-source\src\main\AndroidManifest.xml:34:25-72
+41            </intent-filter>
+42        </activity>
+43    </application>
+44
+45</manifest>
